@@ -5,7 +5,7 @@ This Discord bot allows users to create and manage tickets for their Discord ser
 ## **Author**
 - [Fircode](https://github.com/athnf)
 
-![Kinerja Bot]([https://via.placeholder.com/800x200](https://media.discordapp.net/attachments/1216063554424406088/1232010427706376212/image.png?ex=6627e69f&is=6626951f&hm=885e6452af6d5e064b2009eb3904c826f79193289340adcff002faa6deb54fae&=&format=webp&quality=lossless&width=550&height=165))
+![Kinerja Bot](https://media.discordapp.net/attachments/1216063554424406088/1232010427706376212/image.png?ex=6627e69f&is=6626951f&hm=885e6452af6d5e064b2009eb3904c826f79193289340adcff002faa6deb54fae&=&format=webp&quality=lossless&width=550&height=165)
 
 ## **Installation**
 
