@@ -15,7 +15,7 @@ Make sure you have Node.js and npm installed on your system. If not, you can dow
 
 Clone this repository to your system by running the following command:
 
-git clone https://github.com/username/repository.git
+git clone https://github.com/athnf/Ticketing-System.git
 
 csharp
 Copy code
@@ -53,5 +53,6 @@ To use the ticketing system, use the following commands:
 
 !ticket: Opens a new ticket.
 !close: Closes the current ticket (only available to the ticket owner and administrators).
+
 ### License
 This project is licensed under the MIT (License).
