@@ -1,34 +1,37 @@
-# Proyek Ticketing Bot Discord
+**Proyek Ticketing Bot Discord**
 
-[![GitHub repo size](https://img.shields.io/github/repo-size/username/repository)](https://github.com/username/repository)
-[![GitHub contributors](https://img.shields.io/github/contributors/username/repository)](https://github.com/username/repository/graphs/contributors)
-[![GitHub stars](https://img.shields.io/github/stars/username/repository?style=social)](https://github.com/username/repository/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/username/repository?style=social)](https://github.com/username/repository/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/username/repository)](https://github.com/username/repository/issues)
+This Discord bot allows users to create and manage tickets for their Discord server.
 
-Proyek ini adalah bot Discord untuk sistem ticketing yang dibangun menggunakan Discord.js v13.
+## **Author**
+- [Fircode](https://github.com/athnf)
 
-## Instalasi
+## **Installation**
 
-### Persyaratan
+### Requirements
 
-Pastikan Anda sudah memiliki Node.js dan npm terinstal di sistem Anda. Jika belum, Anda bisa mengunduhnya [di sini](https://nodejs.org/).
+Make sure you have Node.js and npm installed on your system. If not, you can download them [here](https://nodejs.org/).
 
-### Clone Repositori
+### Clone the Repository
 
-Clone repositori ini ke sistem Anda dengan menjalankan perintah:
+Clone this repository to your system by running the following command:
 
 git clone https://github.com/username/repository.git
 
-### Install Dependensi
+csharp
+Copy code
 
-Masuk ke direktori proyek dan instal dependensi dengan menjalankan perintah:
+### Install Dependencies
+
+Navigate to the project directory and install dependencies by running:
 
 npm install
 
-### Konfigurasi
+css
+Copy code
 
-Buat file `config.json` di dalam direktori proyek Anda dengan isi sebagai berikut:
+### Configuration
+
+Create a `config.json` file in your project directory with the following content:
 
 ```json
 {
@@ -36,23 +39,19 @@ Buat file `config.json` di dalam direktori proyek Anda dengan isi sebagai beriku
   "prefix": "!"
 }
 ```
-Pastikan untuk mengganti YOUR_DISCORD_BOT_TOKEN dengan token bot Discord Anda.
+Make sure to replace YOUR_DISCORD_BOT_TOKEN with your Discord bot token.
 
-### Menjalankan Bot
-Jalankan bot dengan menjalankan perintah:
+Run the Bot
+Start the bot by running:
+
+Copy code
 node index.js
-Bot akan sekarang aktif di server Discord Anda.
+The bot will now be active on your Discord server.
 
-### Penggunaan
-Anda dapat menggunakan command berikut untuk berinteraksi dengan bot:
+### Usage
+To use the ticketing system, use the following commands:
 
-!ticket: Untuk membuka tiket baru.
-!help: Untuk melihat daftar perintah yang tersedia.
-Kontribusi
-Anda dapat berkontribusi pada proyek ini dengan cara mengirim pull request atau melaporkan bug yang Anda temui.
-
-### Author
-Fircode
-
-### Lisensi
-Proyek ini dilisensikan di bawah Lisensi MIT.
+!ticket: Opens a new ticket.
+!close: Closes the current ticket (only available to the ticket owner and administrators).
+### License
+This project is licensed under the MIT (License).
